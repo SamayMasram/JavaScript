@@ -52,3 +52,15 @@ const regularUser = {
 console.log(regularUser.fullname);
 console.log(regularUser.fullname.userfullname);
 console.log(regularUser.fullname.userfullname.firstname);
+
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+
+const users = [
+    {id:1, email:"h@gmail.com"},{id:2, email:"j@gmail.com"},{id:3, email:"h@gmail.com"}
+]
+console.log(users[1].email);
+
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+console.log(tinderUser.hasOwnProperty('LoggedIn'));
