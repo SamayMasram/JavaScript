@@ -64,3 +64,28 @@ console.log(users[1].email);
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 console.log(tinderUser.hasOwnProperty('LoggedIn'));
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "9999",
+    courseinstructor: "hitesh"
+}
+
+const {courseinstructor: instructor} = course
+//console.log(courseinstructor);
+console.log(instructor);
+/*
+const navbar = ({company}) => {
+
+}
+navbar(company = "hitesh") // destructuring
+*/
+
+/*
+{   //JSON
+    "name": "hitesh",
+    "price": "free" // both should be string
+}
+*/
+
