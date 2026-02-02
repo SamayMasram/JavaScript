@@ -29,12 +29,30 @@ for (let index1 = 0; index1 < myArray.length; index1++) {
 */
 for (let index = 1; index <= 20; index++) {
     if(index == 5){
-        console.log("5 deteced");
+       // console.log("5 deteced");
         continue;
-    }console.log(`Value of i is ${index}`);
+    }//console.log(`Value of i is ${index}`);
 }
 
 
+//WHILE
+let index2 = 0
+while(index2 <= 10) {
+    //console.log(`Value of index is ${index2}`);
+    index2 = index2 + 2;
+}
 
+let myArray1 = ["flash", "batman", "superman"]
+let arr = 0
+while(arr<myArray1.length) {
+    //console.log(`value is ${myArray1[arr]}`);
+    arr = arr + 1; 
+}
+
+let score = 11
+do {
+    console.log(`Score is ${score}`);
+    score++
+} while (score<=10);
 
 //node 08_iterations.js
