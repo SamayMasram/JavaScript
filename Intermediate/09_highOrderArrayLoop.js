@@ -89,7 +89,8 @@ const myCding = [
     }
 ]
 myCding.forEach((item) => {
-    console.log(item.languageName);
-    
+    //console.log(item.languageName);
 })
+
+
 //node 09_highOrderArrayLoop.js
